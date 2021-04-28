@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Greetings", "Howdy!", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","What is up?" ,"What's up"],
+         "responses": ["Hello, thanks for asking", "Hi, how's it going", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Have a nice day", "See u later", "See you later", "Thanks for helping", "Bye Bye", "See ya", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I could book your appointment for covid-19 test","I am here to book your PCR test", "I can help you book your covid test"],
+         "context": [""]
+        },
+        {"tag": "purpose_book_appointment",
+         "patterns": ["I want to book an appointment for Covid test","Want an appointment for PCR test","Need to book a rapid test","I want to enquire about covid-19 test","How can I book my covid-19 test done?","Where can I get my covid 19 assessment done?","Do you support covid-19 test?"],
+         "responses": ["Sure, We do that here!"],
+         "context": ["appointment_time"]
+        },
+		{"tag": "appointment_time",
+         "patterns": ["What is the available time slot?","What time can I book an appointment for covid test?","When can I come for covid-19 assessment?","When does the clinic has available timingfor covid test?","When will the pharmacist be available for covid test?","When is the clinic open for exam?","When is the next appointment available?","Should I come early tommorrow?","Kindly tell me the time","Is afternoon feasible for you?"],
+         "responses": ["We have one slot available in two days, Should I book it?"],
+         "context": ["confirm_appointment"]
+        },
+        {"tag": "confirm_appointment",
+         "patterns": ["Yes", "It is perfect", "It will work" ,"Yes no problem" ,"Please book it", "I will come at that time" ,"Please go ahead" ,"Yeah" ,"Ok" ,"Okay" ,"That seems alright" ,"Sounds good" ,"Let's do that" ,"Aye Aye"],
+         "responses": ["Appointment confirmed! on April 16th 10:30 AM"],
+         "context": ["goodbye"]
+        }   
+   ]
+}

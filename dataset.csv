@@ -1,0 +1,44 @@
+Hi,greeting
+Greetings!,greeting
+"Hi, how's it going",greeting
+Howdy!,greeting
+Hey,greeting
+Hello,greeting
+I want to book an appointment for Covid test,purpose_book_appointment
+Want an appointment for PCR test,purpose_book_appointment
+Need to book a rapid test,purpose_book_appointment
+I want to enquire about covid-19 test,purpose_book_appointment
+How can I book my covid-19 test done?,purpose_book_appointment
+Where can I get my covid 19 assessment done?,purpose_book_appointment
+Do you support covid-19 test?,purpose_book_appointment
+What is the available time slot?,appointment_time
+What time can I book an appointment for covid test?,appointment_time
+When can I come for covid-19 assessment?,appointment_time
+When does the clinic has available timingfor covid test?,appointment_time
+When will the pharmacist be available for covid test?,appointment_time
+When is the clinic open for exam?,appointment_time
+When is the next appointment available?,appointment_time
+Should I come early tommorrow?,appointment_time
+Kindly tell me the time,appointment_time
+Is afternoon feasible for you?,appointment_time
+Yes,confirm_appointment
+It is perfect,confirm_appointment
+It will work,confirm_appointment
+Yes no problem,confirm_appointment
+Please book it,confirm_appointment
+I will come at that time,confirm_appointment
+Please go ahead,confirm_appointment
+Yeah,confirm_appointment
+Ok,confirm_appointment
+Okay,confirm_appointment
+That seems alright,confirm_appointment
+Sounds good,confirm_appointment
+Let's do that,confirm_appointment
+Aye Aye,confirm_appointment
+Have a nice day,goodbye
+See you later,goodbye
+See u later,goodbye
+Thanks for helping,goodbye
+Bye,goodbye
+Bye Bye,goodbye
+See ya,goodbye
